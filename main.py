@@ -19,7 +19,7 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('Welcome to my sandbox!')
+        self.response.write('Welcome to my sandbox! With cloudbuild!')
 
 
 app = webapp2.WSGIApplication([
