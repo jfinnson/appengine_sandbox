@@ -1,0 +1,9 @@
+dispatch:
+
+  # Default service serves simple hostname request.
+  - url: "johnfinnson.com/"
+    service: default
+
+  # Sandbox service
+  - url: "sandbox.johnfinnson.com/"
+    service: sandbox
